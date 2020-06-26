@@ -56,15 +56,23 @@
 		7310598224A1AFC3001AD106 /* AboutMe */ = {
 			isa = PBXGroup;
 			children = (
-				7310598324A1AFC3001AD106 /* AppDelegate.swift */,
-				7310598524A1AFC3001AD106 /* SceneDelegate.swift */,
 				7310598724A1AFC3001AD106 /* ViewController.swift */,
 				7310598924A1AFC3001AD106 /* Main.storyboard */,
+				7310599924A1B0D2001AD106 /* Supporting Files */,
+			);
+			path = AboutMe;
+			sourceTree = "<group>";
+		};
+		7310599924A1B0D2001AD106 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7310598324A1AFC3001AD106 /* AppDelegate.swift */,
+				7310598524A1AFC3001AD106 /* SceneDelegate.swift */,
 				7310598C24A1AFC4001AD106 /* Assets.xcassets */,
 				7310598E24A1AFC4001AD106 /* LaunchScreen.storyboard */,
 				7310599124A1AFC4001AD106 /* Info.plist */,
 			);
-			path = AboutMe;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,14 +292,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AboutMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.umsl.AboutMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,14 +313,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AboutMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.umsl.AboutMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
